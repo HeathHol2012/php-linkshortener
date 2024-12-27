@@ -12,3 +12,5 @@ coded by heath github user: heathhol2012
     - when upgrading to a newer version of this you can just change the index.php and keep the links.json and user.json
     - if you have any issues with this please make a issue on github and i will try to help!
     - please do not use as anything public as this is not secure in anyway and is just a fun coding project
+
+please note: some of this was coded using cursor (ai coding tool) https://www.cursor.com/,although most of it was coded by hand 
