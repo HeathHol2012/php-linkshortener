@@ -6,6 +6,8 @@ the default username and password is admin admin.
 
 at the moment it only allows users that were manually added by the admin panel but in a future update i will add version of the PHP file with a register button
 
+releases can be found here: https://github.com/HeathHol2012/php-linkshortener/releases/
+
 coded by heath github user: heathhol2012
     - runs on php so use a local server like ISS or alpache or port forward to become public
     - my website will be running this (http://shortify.us.kg/)
