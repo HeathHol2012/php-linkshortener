@@ -1,0 +1,16 @@
+
+DirectoryIndex index.php index.html index.htm index2.html
+
+ErrorDocument 403 insert error code link here
+ErrorDocument 404 insert error code link here
+ErrorDocument 500 insert error code link here
+
+RewriteEngine On
+
+# Redirect root to index.php without changing the URL in the address bar
+RewriteCond %{REQUEST_URI} ^/$
+RewriteRule ^$ /index.php [L]
+
+# Internally rewrite all other requests to index.php
+RewriteCond %{REQUEST_URI} !^/index\.php
+RewriteRule ^(.*)$ /index.php/$1 [L]
